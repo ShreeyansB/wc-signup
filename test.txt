@@ -1,0 +1,6 @@
+const user = { firstName: "John",lastName: "Doe", email: "johndoe@example.com", password: "hashedpass", phone: "+910123456789"}
+
+use wc
+db.createCollection('users')
+db.users.createIndex({email: 1}, {unique: true})
+db.users.createIndex({phone: 1}, {unique: true})
