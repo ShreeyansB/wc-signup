@@ -2,6 +2,10 @@
 
 For User Authentication
 
+```
+node index.js
+```
+
 ## API Docs
 
 ### Fetch Balance Sheet
