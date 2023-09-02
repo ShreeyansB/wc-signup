@@ -15,7 +15,7 @@ export default function Signup() {
                 className="hidden md:flex col-span-2 h-full w-full"
                 {...sidebarProps}
             />
-            <div className="col-span-5 md:col-span-3 h-full w-full flex flex-col items-center justify-center overflow-y-auto">
+            <div className="col-span-5 md:col-span-3 h-full w-full block py-8 md:py-0 md:flex md:flex-col items-center justify-center overflow-y-auto">
                 <div className="px-5 w-full lg:w-[60%]">
                     <h1 className="font-semibold text-2xl my-2">
                         Sign Up for WisdomCircle
